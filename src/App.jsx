@@ -1,3 +1,4 @@
+import Header from './header';
 import AboutMe from './about';
 import Projects from './mywork';
 import ContactForm from './Contact-me';
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Header></Header>
       <AboutMe></AboutMe>
       <Projects></Projects>
       <ContactForm></ContactForm>
