@@ -13,7 +13,15 @@ function Projects(){
         <div href="" className="portfolio__iteam">
         <img src={memoryCardGame} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory card Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+         <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="https://github.com/mphojames9/memory-card-game.git">View code</a>
          </div>
@@ -26,7 +34,15 @@ function Projects(){
    <div href="" className="portfolio__iteam">
         <img src={taskList} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory card Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+      <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="https://github.com/mphojames9/weather-app.git">View code</a>
          </div>
@@ -40,7 +56,15 @@ function Projects(){
    <div href="" className="portfolio__iteam">
         <img src={weatherApp} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory card Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+      <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="#">View code</a>
          </div>
@@ -54,7 +78,15 @@ function Projects(){
    <div href="" className="portfolio__iteam">
         <img src={chatAppNode_js} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory card Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+      <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="#">View code</a>
          </div>
@@ -68,7 +100,15 @@ function Projects(){
    <div href="" className="portfolio__iteam">
         <img src={chatAppNode_js} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory card Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+      <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="#">View code</a>
          </div>
@@ -82,7 +122,15 @@ function Projects(){
    <div href="" className="portfolio__iteam">
         <img src={chatAppNode_js} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory card Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+      <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="#">View code</a>
          </div>
@@ -95,7 +143,15 @@ function Projects(){
    <div href="" className="portfolio__iteam">
         <img src={chatAppNode_js} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory card Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+      <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="#">View code</a>
          </div>
@@ -108,7 +164,15 @@ function Projects(){
    <div href="" className="portfolio__iteam">
         <img src={chatAppNode_js} className="vid">
            </img>
+           <div className="portfolio_team_infor">
+            <h1>Memory  Game</h1>
+            <p>Memory card is a simple matching cards game in which all the cards are flipped backside on a surface, and two cards are flipped face up over each turn. The objective of this game is to match all the pairs of cards with limited moves.</p>
+           </div>
+           <hr />
       <div className="buttons">
+      <div className="button">
+            <a href="https://github.com/mphojames9/memory-card-game.git">View README</a>
+         </div>
          <div className="button">
             <a href="#">View code</a>
          </div>

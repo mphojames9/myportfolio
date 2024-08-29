@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
+    font-family: outfit;
 }
 
 /*custom properties*/
  :root {
-    --ff--primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff--primary: outfit;
+    --ff-secondary: outfit;
 
     --fw-reg: 300;
     --fw-bold: 900;
@@ -15,7 +16,7 @@
     --clr-light: #ffffff;
     --clr-drk-light:rgba(237, 240, 243, 0.562);
     --clr-dark: #24262b;
-    --clr-accent: #f9004f;
+    --clr-accent: tomato;
     --clr-accent__-adj: #fcfc;
 
     --fs-h1: 3rem;
@@ -25,6 +26,15 @@
     --bs: 1.25em 1.25em 1.75em rgba(51, 71, 189, 0.25),
           1.125em 1.125em 1.25em rgba(70, 98, 136, 0.15);
     --ts: 1px 3px 1px rgb(88, 67, 67);
+}
+
+@media (max-width:500px){
+    :root {
+        --fs-h1: 2.5rem;
+        --fs-h2: 2rem;
+        --fs-h3: 1.15rem;
+        --fs-body: 0.9rem;
+    }
 }
 
 html {
@@ -135,7 +145,7 @@ nav ul li::before{
 	position: absolute;
 	left:0;
 	bottom: -5px;
-	background-color: goldenrod;
+	background-color: var(--clr-accent);
 	height: 2px;
 	box-sizing: border-box;
 	width: 20px;
@@ -199,8 +209,6 @@ nav ul li a p {
 .open_menu_btn {
     color: white;
     display: none;
-
-
 }
 
 .content__intro .resumeBtn {
@@ -225,10 +233,10 @@ nav ul li a p {
 
 
 .mainLogo {
-    width: 75px;
-    height: 75pxt;
+    width: 60px;
+    height: 60pxt;
     margin-left: -2%;
-    margin-top: -4%;
+    margin-top: 0%;
 }
 
 
@@ -256,7 +264,7 @@ nav ul li a p {
 .content h1 {
     color: var(--clr-light);
     margin: 20px 0px 20px;
-    font-size: 55px;
+    font-size: var(--fs-h1);
 }
 
 .content h3 {
@@ -276,11 +284,11 @@ nav ul li a p {
 }
 
 .content span {
-    color: goldenrod;
+    color: var(--clr-accent);
 }
 
 .content .profileImg {
-    border: solid goldenrod 2px;
+    border: solid var(--clr-light) 2px;
     box-shadow: var(--bs);
     width: 200px;
     height: 200px;
@@ -606,7 +614,7 @@ strong {
 
 .coodingLogo img {
     height: inherit;
-    width: 6em;
+    width: 4em;
     margin-left: 5em;
 }
 
@@ -689,8 +697,13 @@ strong {
     margin: 0 auto;
     overflow: hidden;
     border: 1px solid var(--clr-light);
-    height: fit-content;
-    
+    height: 450px;
+    transition: ease-in-out 250ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
     /*overflow: hidden; disabled only used for images*/
 }
 
@@ -701,6 +714,15 @@ strong {
     margin: 0 auto;
     transition: .5s ease-in-out;
     overflow: hidden;
+}
+
+.portfolio__iteam .portfolio_team_infor p{
+    font-size: var(--fs-body);
+}
+
+.portfolio__iteam hr{
+    width:80%;
+
 }
 
 .vid:hover {
@@ -720,18 +742,17 @@ strong {
     width: 40%;
     height: 25px;
     cursor: pointer;
-    border: solid 1px var(--clr-light);
-    border-radius: 5px;
+    border: solid 1px white;
     transition: ease-in-out.3s;
-    opacity: .4;
+    margin: 5px;
+
 
 }
 
 .button a {
     text-decoration: none;
-    color: var(--clr-light);
-    font-size: var(--fs-body) ;
-    font-weight: 700;
+    color: white;
+    font-size: 0.7em;
 }
 
 .buttons .button:hover {
@@ -956,7 +977,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #f9004d;
+	background-color: tomato;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -1003,7 +1024,7 @@ ul{
 }
 @media(max-width: 574px){
   .footer-col{
-    width: 70%;
+    width: 50%;
     text-align: center;
 }
 
@@ -1013,7 +1034,7 @@ ul{
 }}
 
 .my-class {
-    background-color: red;
+    background-color: tomato;
     width: 100px;
     height: 100px;
 }

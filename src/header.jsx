@@ -1,7 +1,6 @@
 import profilePicture from './assets/profileImage.jpg';
 import myLogo from './assets/logo/mylogo.png';
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';

@@ -1,21 +1,24 @@
 import Header from './header';
 import AboutMe from './about';
+import Skills from './skills';
 import Projects from './mywork';
-import ContactForm from './Contact-me';
 import Footer_sec from './footer';
-import './App.css'
+import ContactForm from './Contact-me';
+import React from 'react';
+import './App.css';
 
 function App() {
-
-  return (
+  return(
     <>
-      <Header></Header>
-      <AboutMe></AboutMe>
-      <Projects></Projects>
-      <ContactForm></ContactForm>
-      <Footer_sec></Footer_sec>
+    <Header></Header>
+    <AboutMe></AboutMe>
+    <Skills></Skills>
+    <Projects></Projects>
+    <ContactForm></ContactForm>
+    <Footer_sec></Footer_sec>
     </>
-  )
+  );
+  
 }
 
 export default App
