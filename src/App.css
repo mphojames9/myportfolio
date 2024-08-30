@@ -840,7 +840,7 @@ strong {
 
  .form-control {
     margin-bottom: 15px;
-    width: 100%;
+    width: 95%;
     padding: 10px;
     border: 1px solid #c5c5c5;
     outline-color: var(--clr-accent);

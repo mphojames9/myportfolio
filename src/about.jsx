@@ -43,10 +43,10 @@ function AboutMe(){
     hands on experience learning to design software applications
     that meet the technical requirements and functionality with
     Odin projects and ALX Software Engineering programme
-    and a qualified Full-Stack Web/software developer
+    and I'm a qualified Full-Stack Web/software developer
     </p><br/>
     <p>
-    I'm compitant with <strong>C, C++, Phython SQL data base </strong>and
+    I'm compitant with <strong>C, C++, Python SQL data base </strong>and
     more confident with <strong>JavaScript, React.js, Node.js </strong>and ofcause <strong>
         HTML and CSS 
     </strong> for resposive <strong>UI</strong> Web Applications.
