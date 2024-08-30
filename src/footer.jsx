@@ -1,6 +1,9 @@
+import Fade from 'react-reveal/Fade';
 
 function Footer_sec(){
+
     return (
+      <Fade>
         <footer className="footer">
         <div className="container">
           <div className="row">
@@ -39,6 +42,7 @@ function Footer_sec(){
           </div>
         </div>
     </footer>
+    </Fade>
     )
 }
 

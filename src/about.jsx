@@ -11,10 +11,13 @@ import cIcon from './assets/logo/c.png';
 import cplusIcon from './assets/logo/c++.png';
 import sqlIcon from './assets/logo/sql.png';
 import reactIcon from './assets/logo/react.png';
+import Fade from 'react-reveal/Fade';
+import { Zoom } from 'react-reveal';
 
 //!About me
 function AboutMe(){
     return (
+        <Fade>
     <section className="about-me" id="about">
     <h2 className="section__title section__title--about">About me</h2>
     <div className="section__subtitle section__subtitle--about">
@@ -49,8 +52,9 @@ function AboutMe(){
     </strong> for resposive <strong>UI</strong> Web Applications.
     </p>
 </div>
-
+<Zoom>
 <img src={mainPicture} alt="third image" className="about-me__img"></img>
+</Zoom>
 <Marquee className="coodingLogo">
             <img src={cIcon}></img>
             <img src={cplusIcon}></img>
@@ -65,6 +69,7 @@ function AboutMe(){
             <img src={gitIcon}></img>
 </Marquee>
     </section>
+    </Fade>
     );
 }
 

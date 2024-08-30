@@ -372,52 +372,8 @@ nav ul li a p {
     
 }
 
-/*animation content h4 slides right after 1 second*/
-.content h4 {
-    animation: 1s slide-right;
-  }
-  
-  @keyframes slide-right {
-    from {
-      margin-left: -100%;
-    }
-  
-    to {
-      margin-left: 0%;
-    }
-  }
-
-  /*animation content h1 slides right after 1.9seconds*/
 .content h1 {
     overflow:hidden;
-  }
-.content h1 {
-    animation: 1.9s slide-right;
-  }
-  
-  @keyframes slide-right {
-    from {
-      margin-left: -100%;
-    }
-  
-    to {
-      margin-left: 0%;
-    }
-  }
-
-/*animation content h3 slides right after 1.3seconds*/
-.content h3 {
-    animation: 1.3s slide-right;
-  }
-  
-  @keyframes slide-right {
-    from {
-      margin-left: -100%;
-    }
-  
-    to {
-      margin-left: 0%;
-    }
   }
 
 
@@ -562,22 +518,6 @@ strong {
     animation: change 25s infinite ease-in-out ;
 }
 
-@keyframes change {
-    38% {
-        background-image: url(Background-img/cooding__background.jpg);
-        background-size: cover;
-    }
-
-    40% {
-        background-image: url(Background-img/alexandru-acea-XEB8y0nRRP4-unsplash.jpg);
-        background-size: cover;
-    }
-
-    80% {
-        background-image: url(Background-img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
-        background-size: cover;
-    }
-}
 
 .section__tittle--services {
     color: var(--clr-accent);
@@ -890,7 +830,7 @@ strong {
 	position: absolute;
 	left:0;
 	bottom: -5px;
-	background-color: #f9004d;
+	background-color: tomato;
 	height: 2px;
 	box-sizing: border-box;
 	width: 100px;
@@ -899,13 +839,11 @@ strong {
 }
 
  .form-control {
+    margin-bottom: 15px;
     width: 100%;
-    height: 25px;
-    font-size: var(--fs-body);
-    border-radius: 5px;
-    border: 1px solid var(--clr-dark);
-    margin-bottom: 10px;
     padding: 10px;
+    border: 1px solid #c5c5c5;
+    outline-color: var(--clr-accent);
 }
 
 .form-label {
@@ -1024,13 +962,13 @@ ul{
 }
 @media(max-width: 574px){
   .footer-col{
-    width: 50%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
 }
 
 .footer-col h4::before{
-	width: 35%;
-    margin-left: 10%;
+	width: 25%;
+    margin-left: -10%;
 }}
 
 .my-class {
