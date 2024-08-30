@@ -1,4 +1,5 @@
 import Fade from 'react-reveal/Fade';
+import { Zoom } from 'react-reveal';
 
 function Footer_sec(){
 
@@ -32,12 +33,13 @@ function Footer_sec(){
             </div>
             <div className="footer-col">
               <h4>follow me</h4>
+              <Zoom>
               <div className="social-links">
                 <a href="https://www.linkedin.com/in/mpho-james-413661196"><i className="fa fa-linkedin"></i></a>
                 <a href="https://www.twitter.com/MphoJam95368804"><i className="fa fa-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/mpho-james-413661196"><i className="fa fa-linkedin"></i></a>
-
               </div>
+              </Zoom>
             </div>
           </div>
         </div>
