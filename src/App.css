@@ -164,7 +164,7 @@ nav ul li a {
 	font-size: var(--fs-body);
 	color: var(--clr-light);
 	text-decoration: none;
-	font-weight: 300;
+	font-weight: 500;
 	display: flex;
     transition: all 0.3s ease;
 }
@@ -464,6 +464,10 @@ strong {
 }
 
 @media (min-width: 620px) {
+    nav ul li a p {
+        font-weight: 600;
+    }
+
     .intro {
         display:grid;
         width: min-content;
