@@ -3,7 +3,7 @@ import taskList from './assets/My work/taskList.jpg';
 import memoryCardGame from './assets/My work/MemoryCardGame.jpg';
 import weatherApp from './assets/My work/weatherApp.jpg';
 import TicTacToe from './assets/My work/ticTacToe.jpg';
-import { Zoom } from 'react-reveal';
+
 
 
 function Projects() {
@@ -14,7 +14,7 @@ function Projects() {
 
 
             <div className="portfolio">
-            <Zoom>
+            
                   <div href="" className="portfolio__iteam">
                      <img src={TicTacToe} className="vid">
                      </img>
@@ -37,8 +37,8 @@ function Projects() {
                      </div>
 
                   </div>
-               </Zoom>
-               <Zoom>
+               
+               
                   <div href="" className="portfolio__iteam">
                      <img src={memoryCardGame} className="vid">
                      </img>
@@ -59,8 +59,8 @@ function Projects() {
                         </div>
                      </div>
                   </div>
-               </Zoom>
-               <Zoom>
+               
+               
                   <div href="" className="portfolio__iteam">
                      <img src={taskList} className="vid">
                      </img>
@@ -81,9 +81,9 @@ function Projects() {
                         </div>
                      </div>
                   </div>
-               </Zoom>
+               
 
-               <Zoom>
+               
                   <div href="" className="portfolio__iteam">
                      <img src={weatherApp} className="vid">
                      </img>
@@ -104,8 +104,8 @@ function Projects() {
                         </div>
                      </div>
                   </div>
-               </Zoom>
-               <Zoom>
+               
+               
                   <div href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
@@ -126,9 +126,9 @@ function Projects() {
                         </div>
                      </div>
                   </div>
-               </Zoom>
+               
 
-               <Zoom>
+               
                   <div href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
@@ -149,9 +149,9 @@ function Projects() {
                         </div>
                      </div>
                   </div>
-               </Zoom>
+               
 
-               <Zoom>
+               
                   <div href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
@@ -172,8 +172,8 @@ function Projects() {
                         </div>
                      </div>
                   </div>
-               </Zoom>
-               <Zoom>
+               
+               
                   <div href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
@@ -194,7 +194,6 @@ function Projects() {
                         </div>
                      </div>
                   </div>
-               </Zoom>
 
             </div>
          </section>

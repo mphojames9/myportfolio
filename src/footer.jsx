@@ -1,5 +1,4 @@
-import Fade from 'react-reveal/Fade';
-import { Zoom } from 'react-reveal';
+
 import facebookIcon from './assets/logo/facebook_icon.png';
 import linkedIn from './assets/logo/linkedin_icon.png';
 import twitterIcon from './assets/logo/twitter_icon.png';
@@ -7,7 +6,7 @@ import twitterIcon from './assets/logo/twitter_icon.png';
 function Footer_sec(){
 
     return (
-      <Fade>
+      
         <footer className="footer">
         <div className="container">
           <div className="row">
@@ -36,7 +35,7 @@ function Footer_sec(){
             </div>
             <div className="footer-col">
               <h4>follow me</h4>
-              <Zoom>
+              
               <div className="social-links">
                 <a href="https://www.linkedin.com/in/mpho-james-413661196"><i className="fa fa-linkedin">
                   <img src={facebookIcon} alt="" /></i></a>
@@ -45,12 +44,12 @@ function Footer_sec(){
                 <a href="https://www.linkedin.com/in/mpho-james-413661196"><i className="fa fa-linkedin">
                    <img src={linkedIn} alt="" /></i></a>
               </div>
-              </Zoom>
+              
             </div>
           </div>
         </div>
     </footer>
-    </Fade>
+    
     )
 }
 
