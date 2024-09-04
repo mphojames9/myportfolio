@@ -11,8 +11,8 @@ import cIcon from './assets/logo/c.png';
 import cplusIcon from './assets/logo/c++.png';
 import sqlIcon from './assets/logo/sql.png';
 import reactIcon from './assets/logo/react.png';
-import Fade from 'react-reveal/Fade';
-import { Zoom } from 'react-reveal';
+
+
 
 //!About me
 function AboutMe(){
