@@ -6,6 +6,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { Fade } from 'react-reveal';
 
 
 
@@ -15,6 +16,7 @@ function Header() {
 
     return (
         <>
+        <Fade>
         <div className="hero" id="home">
                 <div className="menu__button" onClick={() => setToggle(!toggle)}>
                 <div className="bar1"></div>
@@ -59,6 +61,7 @@ function Header() {
             </div>
         </div>
     </div>
+    </Fade>
     </>
     );
 }

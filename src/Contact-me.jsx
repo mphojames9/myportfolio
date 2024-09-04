@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Zoom } from 'react-reveal';
 
 
 const ContactForm = () => {
@@ -23,6 +24,7 @@ const ContactForm = () => {
   };
 
   return (
+    <Zoom>
     <div className="container-contact" id="container-contact">
       <h2 className="contactMe_h2">Contact me</h2>
     <form ref={form} onSubmit={sendEmail}>
@@ -37,6 +39,7 @@ const ContactForm = () => {
       <input className="btn btn-submit" type="submit" value="Send" required />
     </form>
     </div>
+    </Zoom>
   );
 
 }

@@ -1,9 +1,10 @@
-
+import Fade from 'react-reveal/Fade';
 
 //My skills
 
 function Skills(){
     return(
+        <Fade>
         <section className="my-services" id="services">
         <h2 className="section__title section__tittle--services">My skills</h2>
         <div className="services">
@@ -32,6 +33,7 @@ function Skills(){
         </div>
         <a href="#myWork" className="btn">My work</a>
 </section>
+</Fade>
     );
 }
 
