@@ -27,7 +27,7 @@ const ContactForm = () => {
     <Zoom>
     <div className="container-contact" id="container-contact">
       <h2 className="contactMe_h2">Contact me</h2>
-    <form ref={form} onSubmit={sendEmail}>
+    <form id="form" onSubmit={sendEmail}>
       <label className="form-label">Name</label>
       <input className="form-control" type="text" name="from_name" required />
       <label className="form-label">Subject</label>
