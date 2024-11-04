@@ -16,7 +16,7 @@
     --clr-light: #ffffff;
     --clr-drk-light:rgba(237, 240, 243, 0.562);
     --clr-dark: #24262b;
-    --clr-accent: tomato;
+    --clr-accent: #7259f1;
     --clr-accent__-adj: #fcfc;
 
     --fs-h1: 3rem;
@@ -53,6 +53,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.svg-inline--fa {
+    display: none;
 }
 
 
@@ -288,8 +292,7 @@ nav ul li a p {
 }
 
 .content .profileImg {
-    border: solid var(--clr-light) 2px;
-    box-shadow: var(--bs);
+    border: solid var(--clr-light) 1px;
     width: 200px;
     height: 200px;
     right: 0;
@@ -410,6 +413,9 @@ strong {
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 3px 5px rgb(66, 65, 65);
 }
 
 .btn:hover {
@@ -590,6 +596,7 @@ strong {
             'subtitle img'
             'text img';
         grid-column-gap: 2em;
+        margin: 3em auto;
     }
 
 
@@ -638,9 +645,9 @@ strong {
 .portfolio__iteam {
     background: var(--clr-dark);
     width: 95%;
-    margin: 0 auto;
+    margin: 1em auto;
     overflow: hidden;
-    border: 1px solid var(--clr-light);
+    box-shadow: var(--bs);
     height: 450px;
     transition: ease-in-out 250ms;
     display: flex;
@@ -648,6 +655,7 @@ strong {
     align-items: center;
     justify-content: space-between;
     padding: 5px;
+    border-radius: 10px;
     /*overflow: hidden; disabled only used for images*/
 }
 
@@ -689,6 +697,7 @@ strong {
     border: solid 1px white;
     transition: ease-in-out.3s;
     margin: 5px;
+    border-radius: 15px;
 
 
 }
@@ -711,9 +720,9 @@ strong {
 
 .container-contact {
     width: 100%;
-    margin: 0 auto;
     padding: 10px;
     font-weight: 600;
+    
 }
 }
 .portfolio__img {
@@ -798,7 +807,7 @@ strong {
 
     .portfolio__iteam {
         width: 100%;
-        margin: 0;
+        margin: 5em auto;
         /*overflow: hidden; disabled only used for images*/
     }
 
@@ -810,7 +819,7 @@ strong {
 /*contact me section*/
 .container-contact {
     width: 50%;
-    margin: 0 auto;
+    margin: 5em auto;
     padding: 10px;
     font-weight: 600;
 }
@@ -824,7 +833,7 @@ strong {
     text-align: center;
     padding: 0px 25px;
     width: fit-content;
-    margin: 0 auto;
+    margin: 2em auto;
 	font-weight: 500;
 	position: relative;
 }
@@ -861,7 +870,6 @@ strong {
 @media (max-width:750px){
     .container-contact {
         width: 90%;
-        margin: 0 auto;
         padding: 5px;
         font-weight: 600;
     }
@@ -869,6 +877,11 @@ strong {
 }
 
 @media (max-width:500px){
+
+    .svg-inline--fa {
+        display: var(--fa-display, inline-block);
+    }
+
     .contactMe_h2{
         font-size: 1.5em;
         font-weight: 700;
