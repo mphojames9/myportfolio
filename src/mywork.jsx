@@ -1,3 +1,5 @@
+import "animate.css/animate.compat.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 import chatAppNode_js from './assets/My work/chatAppNode_js.jpg';
 import taskList from './assets/My work/taskList.jpg';
 import memoryCardGame from './assets/My work/MemoryCardGame.jpg';
@@ -8,13 +10,14 @@ import battleship from './assets/My work/battleShip.jpg';
 
 function Projects() {
    return (
-         <section className="my-work" id="myWork">
+      
+         <ScrollAnimation animateIn="fadeIn" section className="my-work" id="myWork">
             <h2 className="section__title">My work</h2>
             <p className="section__subtitle--my-work">Some portion of my work</p>
 
 
             <div className="portfolio">
-                  <div href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
                      <img src={TicTacToe} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -34,8 +37,8 @@ function Projects() {
                            <a href="https://mphojames9.github.io/tic-tac-toe/">View App</a>
                         </div>
                      </div>
-                  </div>
-                  <div href="" className="portfolio__iteam">
+                  </ScrollAnimation>
+                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
                      <img src={memoryCardGame} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -54,8 +57,8 @@ function Projects() {
                            <a href="https://mphojames9.github.io/memory-card-game/">View App</a>
                         </div>
                      </div>
-                  </div>
-                  <div href="" className="portfolio__iteam">
+                  </ScrollAnimation>
+                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
                      <img src={taskList} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -74,8 +77,8 @@ function Projects() {
                            <a href="#">View App</a>
                         </div>
                      </div>
-                  </div>
-                  <div href="" className="portfolio__iteam">
+                  </ScrollAnimation>
+                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
                      <img src={weatherApp} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -94,8 +97,8 @@ function Projects() {
                            <a href="#">View App</a>
                         </div>
                      </div>
-                  </div>
-                  <div href="" className="portfolio__iteam">
+                  </ScrollAnimation>
+                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
                      <img src={battleship} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -114,8 +117,8 @@ function Projects() {
                            <a href="#">View App</a>
                         </div>
                      </div>
-                  </div>
-                  <div href="" className="portfolio__iteam">
+                  </ScrollAnimation>
+                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -134,8 +137,8 @@ function Projects() {
                            <a href="#">View App</a>
                         </div>
                      </div>
-                  </div>
-                  <div href="" className="portfolio__iteam">
+                  </ScrollAnimation>
+                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -154,9 +157,9 @@ function Projects() {
                            <a href="#">View App</a>
                         </div>
                      </div>
-                  </div>
+                  </ScrollAnimation>
             </div>
-         </section>
+         </ScrollAnimation>
    )
 }
 
