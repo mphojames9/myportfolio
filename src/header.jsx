@@ -49,7 +49,7 @@ function Header() {
 
         <div className="content">
         <div className="content__profileImage">
-                <ScrollAnimation animateIn="zoomIn" className="profileImg">
+                <ScrollAnimation animateIn="fadeIn" className="profileImg">
                     <img src={profilePicture} alt="ProfileImage" className="intro_profileImg"></img>
                 </ScrollAnimation>
             </div>

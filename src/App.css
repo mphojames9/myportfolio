@@ -5,36 +5,6 @@
     font-family: outfit;
 }
 
-.cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    width: 200px;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  }
-  
-  .card {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  }
-  
-  .card.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }  
-
 /*custom properties*/
  :root {
     --ff--primary: outfit;
@@ -46,7 +16,7 @@
     --clr-light: #ffffff;
     --clr-drk-light:rgba(237, 240, 243, 0.562);
     --clr-dark: #24262b;
-    --clr-accent: #7259f1;
+    --clr-accent: #e60000;
     --clr-accent__-adj: #fcfc;
 
     --fs-h1: 3rem;
@@ -443,7 +413,6 @@ strong {
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
-    border-radius: 15px;
     border: none;
     box-shadow: 2px 3px 5px rgb(66, 65, 65);
 }
@@ -720,17 +689,45 @@ strong {
 
 .buttons .button {
 
-    background-color: var(--clr-accent);
-    width: 40%;
-    height: 25px;
-    cursor: pointer;
-    border: solid 1px white;
-    transition: ease-in-out.3s;
-    margin: 5px;
-    border-radius: 15px;
-
+	background-color: #0078d0;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	outline: 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: all .3s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	border-radius: 5px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 5px;
+    width: 100px;
 
 }
+
+.buttons .button:before {
+	background-color: initial;
+	background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+	border-radius: 125px;
+	content: "";
+	height: 50%;
+	left: 4%;
+	opacity: .5;
+	position: absolute;
+	top: 0;
+	transition: all .3s;
+	width: 92%;
+  }
 
 .button a {
     text-decoration: none;
@@ -873,7 +870,7 @@ strong {
 	position: absolute;
 	left:0;
 	bottom: -5px;
-	background-color: tomato;
+	background-color: #e60000;
 	height: 2px;
 	box-sizing: border-box;
 	width: 100px;
@@ -962,7 +959,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: tomato;
+	background-color: #e60000;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -1019,7 +1016,7 @@ ul{
 }}
 
 .my-class {
-    background-color: tomato;
+    background-color: #e60000;
     width: 100px;
     height: 100px;
 }

@@ -11,17 +11,19 @@ import cIcon from './assets/logo/c.png';
 import cplusIcon from './assets/logo/c++.png';
 import sqlIcon from './assets/logo/sql.png';
 import reactIcon from './assets/logo/react.png';
+import "animate.css/animate.compat.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 //!About me
 function AboutMe(){
     return (
     <section className="about-me" id="about">
     <h2 className="section__title section__title--about">About me</h2>
-    <div className="section__subtitle section__subtitle--about">
+    <ScrollAnimation animateIn="fadeIn" className="section__subtitle section__subtitle--about">
         <p className="section__subtitle section__subtitle--about-p">Experience, skills and dedication</p>
-        </div>
+        </ScrollAnimation>
 
-    <div className="about-me__body">
+    <ScrollAnimation animateIn="fadeIn" className="about-me__body">
     <p>I have experience as a senior manager for manufacturing
         company. My dedication to mentoring and helping others has
         helped me create successful teams that support each other.
@@ -48,7 +50,7 @@ function AboutMe(){
         HTML and CSS 
     </strong> for resposive <strong>UI</strong> Web Applications.
     </p>
-</div>
+</ScrollAnimation>
 <img src={mainPicture} alt="third image" className="about-me__img"></img>
 <Marquee className="coodingLogo">
             <img src={cIcon}></img>
