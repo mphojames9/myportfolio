@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import "animate.css/animate.compat.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const ContactForm = () => {
    const form = useRef();
@@ -22,7 +24,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container-contact" id="container-contact">
+    <ScrollAnimation animateIn="fadeIn" className="container-contact" id="container-contact">
       <h2 className="contactMe_h2">Contact me</h2>
     <form id="form" onSubmit={sendEmail}>
       <label className="form-label">Name</label>
@@ -35,7 +37,7 @@ const ContactForm = () => {
       <textarea className="form-control" name="message" />
       <input className="btn btn-submit" type="submit" value="Send" required />
     </form>
-    </div>
+    </ScrollAnimation>
   );
 
 }

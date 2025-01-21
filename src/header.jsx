@@ -1,6 +1,8 @@
 import profilePicture from './assets/profileImage.jpg';
 import myLogo from './assets/logo/mylogo.png';
 import React, { useState } from 'react';
+import "animate.css/animate.compat.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
@@ -47,16 +49,16 @@ function Header() {
 
         <div className="content">
         <div className="content__profileImage">
-                <div className="profileImg">
+                <ScrollAnimation animateIn="zoomIn" className="profileImg">
                     <img src={profilePicture} alt="ProfileImage" className="intro_profileImg"></img>
-                </div>
+                </ScrollAnimation>
             </div>
-            <div className="content__intro">
+            <ScrollAnimation animateIn="fadeIn" className="content__intro">
                 <h4>Hello, my name is</h4>
                 <h1>Mpho Matli</h1>
                 <h3>And I'm a <span>Frontend/Backend</span> Developer</h3>
                 <a href="" className="resumeBtn">Download Resume</a>
-            </div>
+            </ScrollAnimation>
         </div>
     </div>
     </>
