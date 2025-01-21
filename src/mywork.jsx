@@ -17,7 +17,7 @@ function Projects() {
 
 
             <div className="portfolio">
-                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="zoomIn" href="" className="portfolio__iteam">
                      <img src={TicTacToe} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -38,7 +38,7 @@ function Projects() {
                         </div>
                      </div>
                   </ScrollAnimation>
-                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="zoomIn" href="" className="portfolio__iteam">
                      <img src={memoryCardGame} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -58,7 +58,7 @@ function Projects() {
                         </div>
                      </div>
                   </ScrollAnimation>
-                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="zoomIn" href="" className="portfolio__iteam">
                      <img src={taskList} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -78,7 +78,7 @@ function Projects() {
                         </div>
                      </div>
                   </ScrollAnimation>
-                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="zoomIn" href="" className="portfolio__iteam">
                      <img src={weatherApp} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -98,7 +98,7 @@ function Projects() {
                         </div>
                      </div>
                   </ScrollAnimation>
-                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="zoomIn" href="" className="portfolio__iteam">
                      <img src={battleship} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -118,7 +118,7 @@ function Projects() {
                         </div>
                      </div>
                   </ScrollAnimation>
-                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="zoomIn" href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
@@ -138,7 +138,7 @@ function Projects() {
                         </div>
                      </div>
                   </ScrollAnimation>
-                  <ScrollAnimation animateIn="fadeIn" href="" className="portfolio__iteam">
+                  <ScrollAnimation animateIn="zoomIn" href="" className="portfolio__iteam">
                      <img src={chatAppNode_js} className="vid">
                      </img>
                      <div className="portfolio_team_infor">
