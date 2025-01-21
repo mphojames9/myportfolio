@@ -24,16 +24,14 @@ function AboutMe(){
         </ScrollAnimation>
 
     <ScrollAnimation animateIn="fadeIn" className="about-me__body">
-    <p>I have experience as a senior manager for manufacturing
-        company. My dedication to mentoring and helping others has
-        helped me create successful teams that support each other.
+    <p>As a seasoned manufacturing leader with 7+ years of experience,
+    I've driven high-performing teams through collaborative leadership.
+    Now, I'm harnessing my passion for software engineering,
+    leveraging transferable skills like problem-solving, leadership, and teamwork to fuel a successful transition.
+    
     </p>
     <p>
-    After 7years in manufacturing which includes 5-6 years in
-    leadership
-    I decided to do what my heart desires. changing my career
-    was one of the best way to get a fresh start as a <strong>Software
-    engineer</strong>.
+    I'm excited to embark on this new chapter, applying my expertise in a fresh and challenging context.
     </p>
     <p><br/>
      I have strong critical thinking and problem solving

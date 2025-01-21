@@ -9,24 +9,22 @@ function Skills(){
         <div className="services">
         <ScrollAnimation animateIn="zoomIn" className="service">
         <h3>Websites</h3>
-        <p>I develope websites using JavaScript, React.js, Node.js for Backend, HTML
-             and CSS for a great UI that allow users to
-              access and interact with the site.
+        <p>Highly skilled web developer utilizing JavaScript, React.js, and Node.js to craft robust backend solutions.
+         Proficient in HTML and CSS, delivering visually stunning and user-friendly interfaces that provide seamless interactions and exceptional user experiences.
         </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="zoomIn" className="service">
         <h3>Apps/games</h3>
-        <p>I develop applications for personal use, educational apps 
-            for kids and fun games that you may love to play.
-             This hepls me a lot in improving my javascript skills.
+        <p>As a passionate developer, I create a range of applications, from personal projects to educational apps for kids and engaging games.
+        This hands-on approach helps me continually refine my JavaScript skills, staying up-to-date with the latest technologies and best practices.
         </p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="zoomIn" className="service">
         <h3>Github</h3>
-        <p>I'm working on open source software which is the awesome way to learn new skills 
-             and collaborate with bright programmers from whom I can learn a lot.
+        <p>I'm actively contributing to open-source software, which provides an incredible opportunity to acquire new skills, collaborate with talented developers,
+        and learn from their expertise. This dynamic environment fosters growth, innovation, and community-driven development.
         </p>
         </ScrollAnimation>
         </div>

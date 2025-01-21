@@ -634,6 +634,7 @@ strong {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+    letter-spacing: 3px;
 }
 
 .portfolio {
@@ -646,7 +647,6 @@ strong {
     width: 95%;
     margin: 1em auto;
     overflow: hidden;
-    box-shadow: var(--bs);
     height: 450px;
     transition: ease-in-out 250ms;
     display: flex;
@@ -655,6 +655,7 @@ strong {
     justify-content: space-between;
     padding: 5px;
     border-radius: 10px;
+    border: 1px solid rgb(34, 31, 31);
     /*overflow: hidden; disabled only used for images*/
 }
 

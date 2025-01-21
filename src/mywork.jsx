@@ -13,7 +13,7 @@ function Projects() {
       
          <div section className="my-work" id="myWork">
             <h2 className="section__title">My work</h2>
-            <p className="section__subtitle--my-work">Some portion of my work</p>
+            <p className="section__subtitle--my-work">Portfolio highlightsk</p>
 
 
             <div className="portfolio">
