@@ -26,10 +26,10 @@ function Footer_sec(){
             <ScrollAnimation animateIn="zoomIn" className="footer-col">
               <h4>Top Portfolio Projects</h4>
               <ul>
-                <li><a href="#footer">Battle-ship game</a></li>
+                <li><a href="https://battleship-game-jwqj.onrender.com">Battle-ship game</a></li>
                 <li><a href="#footer">Resume Builder</a></li>
                 <li><a href="#footer">Shop Cart</a></li>
-                <li><a href="#footer">Realtime Chat App</a></li>
+                <li><a href="https://real-time-chat-app-ucv3.onrender.com">Realtime Chat App</a></li>
               </ul>
             </ScrollAnimation>
             <ScrollAnimation animateIn="zoomIn" className="footer-col">
@@ -37,7 +37,7 @@ function Footer_sec(){
               <div className="social-links">
                 <a href="https://www.linkedin.com/in/mpho-james-413661196"><i className="fa fa-linkedin">
                   <img src={facebookIcon} alt="" /></i></a>
-                <a href="https://www.twitter.com/MphoJam95368804"><i className="fa fa-twitter">
+                <a href="https://www.twitter.com/MphoJam95368804"><i className="fa fa-linkedin">
                   <img src={twitterIcon} alt="" /></i></a>
                 <a href="https://www.linkedin.com/in/mpho-james-413661196"><i className="fa fa-linkedin">
                    <img src={linkedIn} alt="" /></i></a>

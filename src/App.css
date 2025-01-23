@@ -263,6 +263,7 @@ nav ul li a p {
 .content__profileImage {
     width: 45%;
     height: fit-content;
+    transform: rotate(45deg);
 }
 
 .content h1 {
@@ -299,7 +300,6 @@ nav ul li a p {
     top: 0;
     margin: 0 auto;
     overflow: hidden;
-    border-radius: 50%;
 }
 
 @media (max-width: 750px){
