@@ -266,6 +266,10 @@ nav ul li a p {
     transform: rotate(45deg);
 }
 
+.intro_profileImg {
+    transform: rotate(-45deg);
+}
+
 .content h1 {
     color: var(--clr-light);
     margin: 20px 0px 20px;
