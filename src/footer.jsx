@@ -24,12 +24,12 @@ function Footer_sec(){
               </ul>
             </ScrollAnimation>
             <ScrollAnimation animateIn="zoomIn" className="footer-col">
-              <h4>Top Portfolio Projects</h4>
+              <h4>Upcoming Portfolio Projects</h4>
               <ul>
-                <li><a href="https://battleship-game-jwqj.onrender.com">Battle-ship game</a></li>
-                <li><a href="#footer">Resume Builder</a></li>
-                <li><a href="#footer">Shop Cart</a></li>
-                <li><a href="https://real-time-chat-app-ucv3.onrender.com">Realtime Chat App</a></li>
+                <li><a href="#footer">Battle-ship game React Vision</a></li>
+                <li><a href="#footer">Resume Builder React Vision</a></li>
+                <li><a href="#footer">Shop Cart React Vision</a></li>
+                <li><a href="#footer">Realtime Chat App Vision</a></li>
               </ul>
             </ScrollAnimation>
             <ScrollAnimation animateIn="zoomIn" className="footer-col">

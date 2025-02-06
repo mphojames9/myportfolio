@@ -24,8 +24,8 @@ const ContactForm = () => {
   };
 
   return (
-    <ScrollAnimation animateIn="fadeIn" className="container-contact" id="container-contact">
-      <h2 className="contactMe_h2">Contact me</h2>
+    <ScrollAnimation animateIn="fadeIn" className="container-contact">
+      <h2 className="contactMe_h2" id="container-contact">Contact me</h2>
     <form id="form" onSubmit={sendEmail}>
       <label className="form-label">Name</label>
       <input className="form-control" type="text" name="from_name" required />

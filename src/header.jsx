@@ -57,12 +57,11 @@ function Header() {
                 <h4>Hello, my name is</h4>
                 <h1>Mpho Matli</h1>
                 <h3>And I'm a <span>Frontend/Backend</span> Developer</h3>
-                <a href="" className="resumeBtn">Download Resume</a>
+                <a href="https://drive.google.com/file/d/1KPIKQ8pqU5uc78gbvErkEDMAm24FPuGH/view?usp=drive_link" className="resumeBtn">View Resume</a>
             </ScrollAnimation>
         </div>
     </div>
     </>
     );
 }
-
 export default Header;
