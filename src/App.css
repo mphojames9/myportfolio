@@ -266,8 +266,13 @@ nav ul li a p {
 }
 
 .intro_profileImg {
-    background-color: none;
     border-radius: 50%;
+    transition: 300ms;
+
+}
+
+.intro_profileImg:hover {
+    transform: scale(1.5);
 }
 
 .content h1 {
