@@ -131,18 +131,18 @@ function Projects() {
                <img src={safeSmart} className="vid">
                </img>
                <div className="portfolio_team_infor">
-                  <h1>Responsive Webpage</h1>
-                  <p>This webpage was built during my 36-hour ALX-Gig-At-Startup internship,
-                     where I applied my skills to a real-world project for SafeSmart Company
-                     as part of my skill development program.</p>
+                  <h1>Resume Builder</h1>
+                  <p>This project is a React-based resume builder that allows users to
+                     create and download their resumes in PDF format. It features a user-friendly
+                     interface with forms for entering personal information, education, and work experience.</p>
                </div>
                <hr />
                <div className="buttons">
                   <div className="button">
-                     <a href="https://github.com/mphojames9/safeSmart-alx">View code</a>
+                     <a href="https://github.com/mphojames9/resume-builder">View code</a>
                   </div>
                   <div className="button">
-                     <a href="https://safesmart.onrender.com">View App</a>
+                     <a href="https://mphojames9.github.io/resume-builder/">View App</a>
                   </div>
                </div>
             </ScrollAnimation>
